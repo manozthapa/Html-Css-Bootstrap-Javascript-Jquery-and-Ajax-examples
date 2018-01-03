@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="newcontact.css">
+</head>
+<body>
+	<div class="container">
+		<div class="navbar navbar-default">
+			<!-- <img src="logo.png" style="height: 60px;width: 200px"> -->
+		</div>
+		<label><h1>Applicant's Form</h1></label>
+		<div class="row skin-blue">
+			<div class="col-md-6">
+				<div class="box box-basic">
+					<div class="box-header">
+						Basic Information
+					</div>
+					<form method="post">
+						<div class="form-group">
+							<label>First-Name</label>
+							<input type="text" name="name" required="required" class="form-control">
+						</div>
+						<div class="form-group">
+							<label>Last-Name</label>
+							<input type="text" name="name" required="required" class="form-control">
+						</div>
+						<div class="form-group">
+							<input type="radio" name="Sex" value="male"><label>Male</label>&nbsp;&nbsp;
+							<input type="radio" name="Sex" value="female"><label>Female</label>
+						</div>
+						<div class="form-group">
+							<label>Date of Birth</label>
+							<input type="Date" name="Date" required="required"  class="form-control">
+						</div>
+						<div class="form-group">
+							<label>College</label>
+							<input type="text" name="College" class="form-control">
+						</div>
+						<div class="form-group">
+							<label>Faculty</label>
+							<input type="text" name="Faculty" class="form-control">
+						</div>
+					</form>					
+				</div>
+				<div class="box box-contact">
+					<div class="box-header">
+					    Contact
+					</div>
+					<form method="post">
+						<div class="form-group ">
+							<label>Mobile </label>
+							<input type="tel" name="Mobile" required="required" class="form-control">
+							
+						</div>
+						<div class="form-group">
+							<label>Email</label>
+							<input type="Email" name="Email" required="required" class="form-control">
+						</div>
+					</form>					
+				</div>		
+				<div class="box box-course">
+					<div class="box-header">Your Desired Course Name</div>
+					<select name="course" id="course">
+						<option value=""><label>Select Course</label></option>
+						<option value="1"><label>Java</label></option>
+						<option value="2"><label>Php</label></option>
+						<option value="3"><label>Python</label></option>
+						<option value="4"><label>Dot net</label></option>
+						<option value="5"><label>Mean Stack Development</label></option>
+					</select>
+				</div>	
+				<div class="box box-image">
+					<label>Select Image</label><br>
+					<button class="btn btn-primary">Upload Image</button>
+				</div>
+		 	</div>
+			
+			<div class="col-md-6">
+				<div class="box box-address">
+					<div class="box-header">
+					    Address
+					</div>
+					<form method="post">
+						<div class="form-group">
+							<label>Permanent Address</label>
+							<input type="text" name="Address" required="required" class="form-control">
+						</div>
+						<div class="form-group">
+							<label>Temporary Address</label>
+							<input type="text" name="Address" required="required" class="form-control">
+						</div>
+
+						<div class="form-group">
+							<label>Mailing Address</label>
+							<input type="text" name="Mailing Address" class="form-control">
+						</div>
+					</form>					
+				</div>
+				<div class="box box-social">
+					<div class="box-header">
+					    Social Account
+					</div>
+					<form method="post">
+						<div class="form-group">
+							<label>Google plus</label>
+							<input type="text" name="Address" required="required" class="form-control">
+						</div>
+						<div class="form-group">
+							<label>Twitter Username</label>
+							<input type="text" name="Address" required="required" class="form-control">
+						</div>
+
+						<div class="form-group">
+							<label>Facebook Username</label>
+							<input type="text" name="Mailing Address" class="form-control">
+						</div>
+					</form>					
+				</div>
+				<div class="box box-skill">
+					<div class="box-header">Skills</div>
+					<input type="checkbox" name="Java" value="skills"><label>Java</label><br><br>
+					<input type="checkbox" name="Python" value="skills"><label>Python</label><br><br>
+					<input type="checkbox" name="php" value="skills"><label>Php</label><br><br>
+					<input type="checkbox" name="dotnet" value="skills"><label>.Net</label><br><br>
+					<input type="checkbox" name="basic" value="skills"><label>Basic Programming Concept</label><br><br>
+				</div>
+			</div>
+		</div>
+		<div class="navbar navbar-inverse navbar-fixed-bottom">
+			<button type="Submit" class="btn btn-success  glyphicon glyphicon-ok btn-lg submit">&nbsp;Submit</button>
+			<button type="Cancel" class="btn btn-danger danger glyphicon glyphicon-remove btn-lg">&nbsp;Cancel</button>
+
+		</div>
+	</div>
+</body>
+</html>		
+		
+				
+
+
+	
+
+
+		
+	

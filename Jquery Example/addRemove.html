@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<form>
+	<h1>Your Programming Knowledge skill ?</h1>
+	<div>
+		<p>Answers</p>
+		<input type="txt" id="txt1"/><br>
+		<input type="txt" id="txt2"/><br>
+		<input type="txt" id="txt3"/><br>
+
+		<div id="newBox"></div>
+		<a href="javascript:void(0)" id="add-more">Add More</a>
+	</div>
+</form>
+<script type="text/javascript">
+	function $(key){
+		return document.getElementById(key);
+	}
+	var counter=3;
+	$("add-more").onclick=function(){
+		counter++;
+		var newBox=$("newBox");
+		newBox.innerHTML += '<div><input type="txt" id="txt'+(counter)+'"/><a href="#" onclick=removeElement(this)>(Remove)</a><br></div>';
+	};
+	function removeElement(obj){
+	var child=obj.parentElement;
+	var parent=child.parentElement;
+	parent.removeChild(child);
+};
+
+</script>
+</body>
+</html>

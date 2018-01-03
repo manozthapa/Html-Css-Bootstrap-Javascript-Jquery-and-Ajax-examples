@@ -1,0 +1,101 @@
+body{
+	background: #F2FAFA;
+}
+
+.box-basic{	
+	
+    border: 1px solid #f4f4f4;
+    padding:20px;
+    background: #ffffff;
+    border-top: 1px solid red;
+    margin-top: 20px;
+ }
+
+ .box .box-header{
+ 	border-bottom: 1px solid #B1B7B7;
+ 	font-size: 18px;
+ 	margin-bottom: 10px;
+ 	font-style: italic;
+ }
+
+label{
+	font-style: italic;
+	font-weight: 300;
+ }
+
+.box-address{	
+	
+    border: 1px solid #f4f4f4;
+    padding:20px;
+    background: #ffffff;
+    border-top: 1px solid #347B36;
+    margin-top: 20px;
+
+ }
+
+.box-social{	
+	
+    border: 1px solid #f4f4f4;
+    padding:20px;
+    background: #ffffff;
+    border-top: 1px solid #1D1919;
+    margin-top: 20px;
+
+ }
+
+ .box-contact{	
+	
+    border: 1px solid #f4f4f4;
+    padding:20px;
+    background: #ffffff;
+    border-top: 1px solid #34457B;
+    margin-top: 20px;
+
+ }
+
+ .box-image{
+ 	margin-top: 25px;
+ }
+
+ .box-skill{	
+	
+    border: 1px solid #f4f4f4;
+    padding:20px;
+    background: #ffffff;
+    border-top: 1px solid #E3282E;
+    margin-top: 20px;
+    margin-bottom: 90px;
+
+ }
+
+  .box-course{	
+	
+    border: 1px solid #ADB7AE;
+    padding:20px;
+    background: #ffffff;
+    margin-top: 20px;
+}
+
+.submit{
+
+    font-size: 18px;
+    color: white;
+    padding: 3px 15px;
+    text-align: center;
+    min-width: 100px;
+    min-height: 35px;
+    margin: 10px 10px 10px 500px;
+}
+
+.danger{
+	font-size: 18px;
+    color: white;
+    padding: 3px 15px;
+    text-align: center;
+    min-width: 100px;
+    min-height: 35px;
+    margin: 10px 10px 10px 30px;
+}
+
+
+

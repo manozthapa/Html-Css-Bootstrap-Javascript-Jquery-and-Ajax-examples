@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="js/jquery.min.js"></script>
+</head>
+<body>
+<div class="red">
+</div>
+
+<h1 class="red"></h1>
+
+<a class="red"></a>
+
+<script>
+	$(document).on('ready',function(){
+
+		$(".red").html("hello world jquery").css("background","red").slideUp(1000,function(){
+			alert("sakiyo");
+		})
+	});
+
+</script>
+
+</body>
+</html>

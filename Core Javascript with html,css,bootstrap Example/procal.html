@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Simple Calculator</title>
+	<link rel="stylesheet" type="text/css" href="procal.css">
+</head>
+<body>
+<div class="box">
+<form id ="Calculator">
+	<input id="display" value="0" style="width: 260px;height: 40px; textAlign=right" />
+	<br>
+	<br>
+	<input type="button" id="btnClear" class="btn" value="C" style="background-color: #F75656">
+	<br>
+	<input type="button" id="btn7" class="btn" value="7">
+	<input type="button" id="btn8" class="btn" value="8">
+	<input type="button" id="btn9" class="btn" value="9">
+	<input type="button" id="btnDivide" class="btn" value="/">
+	<br>
+	<input type="button" id="btn4" value="4" class="btn">
+	<input type="button" id="btn5" value="5" class="btn">
+	<input type="button" id="btn6" value="6" class="btn">
+	<input type="button" id="btnMultiply" value="*" class="btn">
+	<br>
+	<input type="button" id="btn1" value="1" class="btn">
+	<input type="button" id="btn2" value="2" class="btn">
+	<input type="button" id="btn3" value="3" class="btn">
+	<input type="button" id="btnMinus" value="-" class="btn">
+
+	<br>
+	<input type="button" id="btn0" value="0" class="btn">
+	<input type="button" id="btnDot" value="." class="btn">
+	<input type="button" id="btnPlus" value="+" class="btn">
+	<input type="button" id="btnEqual" value="=" class="btn">
+	
+
+		
+</form>
+</div>
+
+<script type="text/javascript">
+function obj(id){
+	var id=document.getElementById("id");
+}
+	obj(Calculator);
+	obj(display);
+	obj(btn1);
+	obj(btn2);
+	obj(btn3);
+	obj(btn4);
+	obj(btn5);
+	obj(btn6);
+	obj(btn7);
+	obj(btn8);
+	obj(btn9);
+	obj(btn0);
+	obj(btnPlus);
+	obj(btnEqual);
+
+	btn1.onclick=function(){
+	Calculator.display.value+="1";
+	Calculator.display.style.textAlign="right";
+};
+	btn2.onclick=function(){
+	Calculator.display.value+="2";
+	Calculator.display.style.textAlign="right";
+};
+		btn3.onclick=function(){
+	Calculator.display.value+="3";
+	Calculator.display.style.textAlign="right";
+};
+		btn4.onclick=function(){
+	Calculator.display.value+="4";
+	Calculator.display.style.textAlign="right";
+};
+		btn5.onclick=function(){
+	Calculator.display.value+="5";
+	Calculator.display.style.textAlign="right";
+};
+		btn6.onclick=function(){
+	Calculator.display.value+="6";
+	Calculator.display.style.textAlign="right";
+};
+		btn7.onclick=function(){
+	Calculator.display.value+="7";
+	Calculator.display.style.textAlign="right";
+};
+		btn8.onclick=function(){
+	Calculator.display.value+="8";
+	Calculator.display.style.textAlign="right";
+};
+		btn9.onclick=function(){
+	Calculator.display.value+="9";
+	Calculator.display.style.textAlign="right";
+};
+		btn0.onclick=function(){
+	Calculator.display.value+="0";
+	Calculator.display.style.textAlign="right";
+};
+btnPlus.onclick=function(){
+	Calculator.display.value +="+";
+	Calculator.display.style.textAlign="right";
+};
+btnMinus.onclick=function(){
+	Calculator.display.value +="-";
+	Calculator.display.style.textAlign="right";
+};
+btnMultiply.onclick=function(){
+	Calculator.display.value +="*";
+	Calculator.display.style.textAlign="right";
+};
+btnDivide.onclick=function(){
+	Calculator.display.value +="/";
+	Calculator.display.style.textAlign="right";
+};
+btnDot.onclick=function(){
+	Calculator.display.value +=".";
+	Calculator.display.style.textAlign="right";
+};
+btnClear.onclick=function(){
+	Calculator.display.value ="0";
+	Calculator.display.style.textAlign="right";
+};
+btnEqual.onclick=function(){
+	Calculator.display.value =eval(Calculator.display.value);
+	Calculator.display.style.textAlign="right";
+};
+
+
+
+	
+</script>
+
+</body>
+</html>

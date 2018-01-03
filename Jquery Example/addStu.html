@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="js/jquery.min.js"></script>
+</head>
+<body>
+
+<a href="javascript:void(0)" id="btn">Add Student</a>
+<div id="dialog" style="display: none" >
+	<div>
+		<label>First Name</label>
+		<input type="text" id="firstName" name="firstName"/>
+	</div>
+	<div>
+		<label>Last Name</label>
+		<input type="text" id="lastName" name="lastName"/>
+	</div>
+<a href="javascript:void(0)" id="hide-btn">Cancel Action</a>
+</div>
+
+
+<script>
+	$(document).on('ready',function(){
+		$("#btn").on('click',function(){
+			$('#dialog').show();
+		});
+
+		$("#hide-btn").on('click',function(){
+			$(this).parent().hide();
+		})
+	});
+</script>
+
+
+
+
+</body>
+</html>
